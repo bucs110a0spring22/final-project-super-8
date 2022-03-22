@@ -10,7 +10,7 @@
 << [link to demo presentation slides](#) >>
 
 ### Team: << team name >>
-#### << Team Members >>
+#### Colin Or, Seamus Madden, Matthew An
 
 ***
 
