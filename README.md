@@ -1,22 +1,22 @@
 :warning: Everything between << >> needs to be replaced (remove << >> after replacing)
 # CS110 Project Proposal
-# << Project Title >>
+# << Super 8^11/3 >>
 ## CS 110 Final Project
-### << Semester, Year >>
+### Spring, 2022
 ### [Assignment Description](https://docs.google.com/document/d/1H4R6yLL7som1lglyXWZ04RvTp_RvRFCCBn6sqv-82ps/edit#)
 
 << [repl](#) >>
 
 << [link to demo presentation slides](#) >>
 
-### Team: << team name >>
-#### Colin Or, Seamus Madden, Matthew An
+### Team: << Super 8 >>
+#### Colin Orr, Seamus Madden, Matthew An
 
 ***
 
 ## Project Description *(Software Lead)*
 
-<< Give an overview of your project >>
+This project is a development of the game, 2048. The player uses the 4-control panel (up, down, right, left) to move the blocks across the board. When two like blocks are merged, they merge to create a block of their sum; naturally, the blocks are iterations of 2^n. The game ends in failure if the screen is filled and there are no possible merges. The game ends in success if a 2048 block is achieved. 
 
 ***    
 
@@ -41,6 +41,13 @@
     * This does not need to be overly detailed, but should show how your code fits into the Model/View/Controller paradigm.
 * Classes
     * << You should have a list of each of your classes with a description. >>
+* class move
+
+def moveLeft:
+
+def moveRight:
+
+
 
 ## Project Structure *(Software Lead)*
 
@@ -60,15 +67,15 @@ The Project is broken down into the following file structure:
 
    * You must outline the team member roles and who was responsible for each class/method, both individual and collaborative.
 
-### Software Lead - << name >>
+### Software Lead - << Seamus Madden >>
 
 << Worked as integration specialist by... >>
 
-### Front End Specialist - << name >>
+### Front End Specialist - << Matthew An >>
 
 << Front-end lead conducted significant research on... >>
 
-### Back End Specialist - << name >>
+### Back End Specialist - << Colin Orr >>
 
 << The back end specialist... >>
 
@@ -81,6 +88,11 @@ The Project is broken down into the following file structure:
 
 | Step                  | Procedure     | Expected Results  | Actual Results |
 | ----------------------|:-------------:| -----------------:| -------------- |
-|  1  | Run Counter Program  | GUI window appears with count = 0  |          |
-|  2  | click count button  | display changes to count = 1 |                 |
-etc...
+|  1  | Click Up Arrow  | Merges or Moves Tiles Up |                 |
+|  2  | Click Down Arrow  | Merges or Moves Tiles Down |                 |
+|  3  | Click Right Arrow  | Merges or Moves Tiles Right |                 |
+|  4  | Click Left Arrow  | Merges or Moves Tiles Left |                   |
+|  5  | Merging tiles  | Tiles merge to create new tile of sum of two like tiles | |
+|  6  |  New tile generation | Creates a new tile every time there is a movement in one of the empty spaces on the grid| |
+|  9  | Win screen  | When 2048 is reached, display win screen |  |
+|  10  | Game Over Screen  | If no more moves possible then a Game Over |  |
